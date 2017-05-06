@@ -8,6 +8,6 @@ All the code here will be in typescript
   - [visualgo](https://visualgo.net/en) algorithm visulization
 
 ## Articles
-  ###data-structure
-  ###algorithm
+  ### data-structure
+  ### algorithm
 
