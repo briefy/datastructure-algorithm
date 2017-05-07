@@ -1,0 +1,43 @@
+{
+  "name": "datastructure-algorithm",
+  "version": "1.0.0",
+  "description": "data-structrue algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint:ts": "tslint"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briefy/datastructure-algorithm.git"
+  },
+  "author": "briefy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briefy/datastructure-algorithm/issues"
+  },
+  "homepage": "https://github.com/briefy/datastructure-algorithm#readme",
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "ts-jest": "^20.0.0",
+    "tslint": "^5.2.0",
+    "tslint-consistent-codestyle": "^1.2.0",
+    "tslint-eslint-rules": "^4.0.0",
+    "tslint-immutable": "^3.2.0",
+    "tslint-react": "^3.0.0",
+    "typescript": "^2.3.2",
+    "vrsource-tslint-rules": "^5.1.0"
+  }
+}
