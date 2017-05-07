@@ -4,7 +4,7 @@
   "description": "data-structrue algorithm",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "lint:ts": "tslint"
   },
   "jest": {
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/briefy/datastructure-algorithm#readme",
   "devDependencies": {
     "@types/jest": "^19.2.3",
+    "jest": "^20.0.0",
     "ts-jest": "^20.0.0",
     "tslint": "^5.2.0",
     "tslint-consistent-codestyle": "^1.2.0",

@@ -41,12 +41,3 @@ export function bubbleSortArray<T>(
 
   return arr
 }
-
-class Test {
-  public name
-  constructor(public readonly x: number, public readonly y) {
-    this.name = 1
-    const location = 'x'
-    this.name = location
-  }
-}
