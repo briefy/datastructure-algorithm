@@ -24,15 +24,19 @@ export function bubbleSortArray<T>(
   compare: Compare<T> = (a, b) => a > b,
 ): T[] {
   const len = arr.length
+  let swapped = false
 
   for (let i = 0; i < len - 1; i++) {
-    let swapped = false
+    swapped = false
 
     for (let j = 0; j < len - i; j++) {
-      if (compare(arr[j], arr[j + 1])) {
-        const temp = arr[j + 1]
+      const next = j + 1
+
+      if (compare(arr[j], arr[next])) {
         swapped = true
-        arr[j + 1] = arr[j]
+
+        const temp = arr[next]
+        arr[next] = arr[j]
         arr[j] = temp
       }
     }
